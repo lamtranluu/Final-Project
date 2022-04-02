@@ -10,7 +10,7 @@
 * [Conclusions](https://github.com/lamtranluu/lam.labwork/tree/main/Final%20Project#%EF%B8%8F-conclusions) 
 
 ## Context 
-Marvel and DC are two of the most popular film producers in the movie industry. Both brand has gained very high engagement from audiences, which can be proved by the success of box office revenue. 30% of top 20 highest grossing box office revenue belong to Marvel & DC movies. 
+Marvel and DC are two of the most popular film producers in the movie industry. Both brand has gained very high engagement from audiences, which can be proved by their success of box office revenue. 30% of top 20 highest grossing box office revenue belong to Marvel & DC movies. 
 - However, let explore a bit deeper in their success per company. According top 10 successful movies in each brand, Marvel gained remarkable gross revenue 1,5B (over 70%) compared to DC's revenue (850M) by using slightly higher budget 20%  more than DC to produce movie. 
 - The winning of Marvel has inspired me to analyze which factors has contributed for their sucess in the movie industry, therefore i decided to take a look at 20,000 movie reviews to find down my answers.
 
