@@ -10,10 +10,9 @@
 * [Conclusions](https://github.com/lamtranluu/lam.labwork/tree/main/Final%20Project#%EF%B8%8F-conclusions) 
 
 ## Context 
-Marvel and DC are two of the most popular film producers in the movie industry. Both brand has gained very high engagement from audiences, which can be proved by their success of box office revenue. 30% of top 20 highest grossing box office revenue belong to Marvel & DC movies. 
-- However, let explore a bit deeper in their success per company. According top 10 successful movies in each brand, Marvel gained remarkable gross revenue 1,5B (over 70%) compared to DC's revenue (850M) by using slightly higher budget 20%  more than DC to produce movie. 
-- The winning of Marvel has inspired me to analyze which factors has contributed for their sucess in the movie industry, therefore i decided to take a look at 20,000 movie reviews to find down my answers.
-
+Marvel and DC are two of the most popular film producers in the movie industry. Both brands have gained very high engagement from audiences, which can be proved by their success in box office revenue. 30% of the top 20 highest-grossing box office revenue belongs to Marvel & DC movies.
+- However, let's explore a bit deeper their success per company. According to the top 10 successful movies in each brand, Marvel gained remarkable gross revenue of 1,5B (over 70%) compared to DC's revenue (850M) by using a slightly higher budget 20%  more than DC to produce movies.
+- The winning of Marvel has inspired me to analyze which factors have contributed to their success in the movie industry, therefore I decided to take a look at 20,000 movie reviews to find my answers.
 ## 🎯 Objectives 
 **1. Conduct sentiments analysis between Marvel & DC based on movies reviews.**
 
@@ -27,19 +26,19 @@ Marvel and DC are two of the most popular film producers in the movie industry. 
 - NRC Lexical, VADER...
  
 ## ⚙️ Method :
-1. Write a Web Scraping fucntion in Python to gather 20,000 reviews from 20 movies in IMDB website.
-2. Implement Data Cleaning process to clean data:
-- remove special characters & repeated sentences which are in the bottom of each reviews
+1. Write a Web Scraping function in Python to gather 20,000 reviews from 20 movies on the IMDB website.
+2. Implement a Data Cleaning process to clean data:
+- remove special characters & repeated sentences which are at the bottom of each review
 - change words to lower case
 - Implement Data Processing:
 - tokenize reviews, stopwords removal 
-3. Sentiment Analysis with VADER & AFINN: these lexicon setiment analysis don't provide an appropiate result, as many positive sentiment still belongs to  low rating group (1-3) from audiences
-4. Sentiment Analysicc with Classified Modeling:
-- Select another movie dataset (50,000 rows) from Kaggle with human labled.
-- Apply 2 different feature selection to compare the accurracy: BOW & TFIDF
+3. Sentiment Analysis with VADER & AFINN: these lexicon sentiment analyses don't provide an appropriate result, as many positive sentiments still belongs to the low rating group (1-3) from audiences
+4. Sentiment Analysis with Classified Modeling:
+- Select another movie dataset (50,000 rows) from Kaggle with human labeled.
+- Apply 2 different feature selections to compare the accuracy: BOW & TFIDF
 - Train Logistic Regression Model with 90% accuracy
-- Aplly a better model on a data set from Marvel & DC. 
-5. Define topic classification by using Bag of Words to extract key words, which are relevant to certain topics
+- Apply a better model on a data set from Marvel & DC. 
+5. Define topic classification by using Bag of Words to extract keywords, which are relevant to certain topics
 <img align="center" src="https://github.com/lamtranluu/lam.labwork/blob/main/Final%20Project/Image/Screenshot%202022-03-17%20at%2021.29.01.png " width="700px">
  
 ## 📌 Outcomes:
